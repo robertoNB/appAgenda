@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6086FF82478A94E00BAA4AB /* ViewControllerEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6086FF72478A94E00BAA4AB /* ViewControllerEdit.swift */; };
 		E63A1A932452A77C0027B34F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A1A922452A77C0027B34F /* AppDelegate.swift */; };
 		E63A1A952452A77C0027B34F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A1A942452A77C0027B34F /* ViewController.swift */; };
 		E63A1A982452A77C0027B34F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63A1A962452A77C0027B34F /* Main.storyboard */; };
 		E63A1A9B2452A77C0027B34F /* AppAgenda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E63A1A992452A77C0027B34F /* AppAgenda.xcdatamodeld */; };
 		E63A1A9D2452A77E0027B34F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E63A1A9C2452A77E0027B34F /* Assets.xcassets */; };
 		E63A1AA02452A77E0027B34F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E63A1A9E2452A77E0027B34F /* LaunchScreen.storyboard */; };
+		E67CED0E2478C0360030D734 /* jsonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E67CED0D2478C0360030D734 /* jsonClass.swift */; };
+		E6B66FB32465E83300EC5FD5 /* Agenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B66FB22465E83300EC5FD5 /* Agenda.swift */; };
+		E6BA1B922464F1B90009A5AA /* ViewControllerAgregar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA1B912464F1B90009A5AA /* ViewControllerAgregar.swift */; };
+		E6BA1B942464F1FC0009A5AA /* TableViewControllerTarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA1B932464F1FC0009A5AA /* TableViewControllerTarea.swift */; };
+		E6BA1B962464F20E0009A5AA /* TableViewControllerDeporte.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA1B952464F20E0009A5AA /* TableViewControllerDeporte.swift */; };
+		E6BA1B982464F23D0009A5AA /* TableViewControllerCompra.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA1B972464F23D0009A5AA /* TableViewControllerCompra.swift */; };
+		E6BA1B9A2464F2530009A5AA /* TableViewControllerDevcas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA1B992464F2530009A5AA /* TableViewControllerDevcas.swift */; };
+		E6BA1B9C2464F2740009A5AA /* TableViewCellDeporte.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA1B9B2464F2740009A5AA /* TableViewCellDeporte.swift */; };
+		E6BA1B9E2464F2840009A5AA /* TableViewCellTarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA1B9D2464F2840009A5AA /* TableViewCellTarea.swift */; };
+		E6BA1BA02464F2A70009A5AA /* TableViewCellCompras.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA1B9F2464F2A70009A5AA /* TableViewCellCompras.swift */; };
+		E6BA1BA22464F2C40009A5AA /* TableViewCellDevCas.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BA1BA12464F2C40009A5AA /* TableViewCellDevCas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E6086FF72478A94E00BAA4AB /* ViewControllerEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerEdit.swift; sourceTree = "<group>"; };
 		E63A1A8F2452A77C0027B34F /* AppAgenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAgenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E63A1A922452A77C0027B34F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E63A1A942452A77C0027B34F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +37,17 @@
 		E63A1A9C2452A77E0027B34F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E63A1A9F2452A77E0027B34F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E63A1AA12452A77E0027B34F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E67CED0D2478C0360030D734 /* jsonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonClass.swift; sourceTree = "<group>"; };
+		E6B66FB22465E83300EC5FD5 /* Agenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agenda.swift; sourceTree = "<group>"; };
+		E6BA1B912464F1B90009A5AA /* ViewControllerAgregar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAgregar.swift; sourceTree = "<group>"; };
+		E6BA1B932464F1FC0009A5AA /* TableViewControllerTarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerTarea.swift; sourceTree = "<group>"; };
+		E6BA1B952464F20E0009A5AA /* TableViewControllerDeporte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerDeporte.swift; sourceTree = "<group>"; };
+		E6BA1B972464F23D0009A5AA /* TableViewControllerCompra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerCompra.swift; sourceTree = "<group>"; };
+		E6BA1B992464F2530009A5AA /* TableViewControllerDevcas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewControllerDevcas.swift; sourceTree = "<group>"; };
+		E6BA1B9B2464F2740009A5AA /* TableViewCellDeporte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellDeporte.swift; sourceTree = "<group>"; };
+		E6BA1B9D2464F2840009A5AA /* TableViewCellTarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellTarea.swift; sourceTree = "<group>"; };
+		E6BA1B9F2464F2A70009A5AA /* TableViewCellCompras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCompras.swift; sourceTree = "<group>"; };
+		E6BA1BA12464F2C40009A5AA /* TableViewCellDevCas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellDevCas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +87,18 @@
 				E63A1A9E2452A77E0027B34F /* LaunchScreen.storyboard */,
 				E63A1AA12452A77E0027B34F /* Info.plist */,
 				E63A1A992452A77C0027B34F /* AppAgenda.xcdatamodeld */,
+				E6BA1B912464F1B90009A5AA /* ViewControllerAgregar.swift */,
+				E6BA1B932464F1FC0009A5AA /* TableViewControllerTarea.swift */,
+				E6BA1B952464F20E0009A5AA /* TableViewControllerDeporte.swift */,
+				E6BA1B972464F23D0009A5AA /* TableViewControllerCompra.swift */,
+				E6BA1B992464F2530009A5AA /* TableViewControllerDevcas.swift */,
+				E6BA1B9B2464F2740009A5AA /* TableViewCellDeporte.swift */,
+				E6BA1B9D2464F2840009A5AA /* TableViewCellTarea.swift */,
+				E6BA1B9F2464F2A70009A5AA /* TableViewCellCompras.swift */,
+				E6BA1BA12464F2C40009A5AA /* TableViewCellDevCas.swift */,
+				E6B66FB22465E83300EC5FD5 /* Agenda.swift */,
+				E6086FF72478A94E00BAA4AB /* ViewControllerEdit.swift */,
+				E67CED0D2478C0360030D734 /* jsonClass.swift */,
 			);
 			path = AppAgenda;
 			sourceTree = "<group>";
@@ -139,8 +175,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				E63A1A952452A77C0027B34F /* ViewController.swift in Sources */,
+				E6BA1B9C2464F2740009A5AA /* TableViewCellDeporte.swift in Sources */,
+				E6BA1B922464F1B90009A5AA /* ViewControllerAgregar.swift in Sources */,
+				E6BA1B982464F23D0009A5AA /* TableViewControllerCompra.swift in Sources */,
+				E6B66FB32465E83300EC5FD5 /* Agenda.swift in Sources */,
 				E63A1A9B2452A77C0027B34F /* AppAgenda.xcdatamodeld in Sources */,
+				E6BA1B9A2464F2530009A5AA /* TableViewControllerDevcas.swift in Sources */,
 				E63A1A932452A77C0027B34F /* AppDelegate.swift in Sources */,
+				E6086FF82478A94E00BAA4AB /* ViewControllerEdit.swift in Sources */,
+				E6BA1B962464F20E0009A5AA /* TableViewControllerDeporte.swift in Sources */,
+				E67CED0E2478C0360030D734 /* jsonClass.swift in Sources */,
+				E6BA1BA02464F2A70009A5AA /* TableViewCellCompras.swift in Sources */,
+				E6BA1B9E2464F2840009A5AA /* TableViewCellTarea.swift in Sources */,
+				E6BA1B942464F1FC0009A5AA /* TableViewControllerTarea.swift in Sources */,
+				E6BA1BA22464F2C40009A5AA /* TableViewCellDevCas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
